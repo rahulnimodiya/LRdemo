@@ -55,8 +55,8 @@ Order="01_SelectCountry__*delimiter*__02_SelectFlight__*delimiter*__03_Purchase"
 [StateManagement]
 LastReplayStatus=3
 [ActiveReplay]
-LastReplayedRunName=result1
-ActiveRunName=result1
+LastReplayedRunName=
+ActiveRunName=
 [Transactions]
 01_SelectCountry=
 02_SelectFlight=

@@ -9,7 +9,7 @@ FlightReser()
 	lr_log_message("From Country is %s and To country is %s",lr_eval_string("{pFromCountry}"),lr_eval_string("{pToCountry}"));
 	
 	lr_output_message("Load Genarator name is %s", lr_eval_string("{pLGName}"));
-	lr_output_message("Tomorrows Date is %s",lr_eval_string("{pDate}"));
+	lr_output_message("Tomorrows Date	 is %s",lr_eval_string("{pDate}"));
 	// TODO complete this scirpt 
 	// UNDONE 
 	// FIXME correlation
