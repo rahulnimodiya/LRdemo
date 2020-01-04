@@ -1,0 +1,63 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=BlazeDemo_FlightRese_Git.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=60
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.60.0.971
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.60.0.971
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+FlightReser=FlightReser.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+FlightReser=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+FlightReser=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+FlightReser=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+FlightReser=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="01_SelectCountry__*delimiter*__02_SelectFlight__*delimiter*__03_Purchase"
+[StateManagement]
+LastReplayStatus=3
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+01_SelectCountry=
+02_SelectFlight=
+03_Purchase=
